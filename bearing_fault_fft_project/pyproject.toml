@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cwru-project"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["numpy", "scipy", "matplotlib"]
+
+[project.scripts]
+cwru-inspect = "cwru_project.inspect_data:main"
+cwru-plot-time = "cwru_project.step2_plot_time:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

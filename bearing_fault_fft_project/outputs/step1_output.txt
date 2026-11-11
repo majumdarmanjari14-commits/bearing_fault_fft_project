@@ -1,0 +1,25 @@
+--- Inspecting CWRU Dataset Keys ---
+
+[Healthy] (data/97.mat):
+  -> X097_DE_time (Shape: (243938, 1))
+  -> X097_FE_time (Shape: (243938, 1))
+  -> X097RPM (Shape: (1, 1))
+----------------------------------------
+[Inner Race Fault] (data/105.mat):
+  -> X105_DE_time (Shape: (121265, 1))
+  -> X105_FE_time (Shape: (121265, 1))
+  -> X105_BA_time (Shape: (121265, 1))
+  -> X105RPM (Shape: (1, 1))
+----------------------------------------
+[Ball Fault] (data/118.mat):
+  -> X118_DE_time (Shape: (122571, 1))
+  -> X118_FE_time (Shape: (122571, 1))
+  -> X118_BA_time (Shape: (122571, 1))
+  -> X118RPM (Shape: (1, 1))
+----------------------------------------
+[Outer Race Fault] (data/130.mat):
+  -> X130_DE_time (Shape: (121991, 1))
+  -> X130_FE_time (Shape: (121991, 1))
+  -> X130_BA_time (Shape: (121991, 1))
+  -> X130RPM (Shape: (1, 1))
+----------------------------------------
